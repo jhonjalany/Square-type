@@ -1,0 +1,369 @@
+.scroll-top-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 100px;
+  width: 100px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.scroll-top-img {
+  height: 100px;
+  width: 100px;
+  
+}
+img {
+  cursor: pointer;
+}
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+span {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+
+}
+.pop-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid; 
+  border-color: white;
+  border-radius: 5px;
+  width: 35%;
+  height: 600px;
+}
+.heads {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+.deped,
+.anhs {
+  height: 100%;
+  border-radius: 50%;
+  border: 1px;
+  border-style: solid;
+}
+.name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.award-button,
+.section-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.buttons {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.m-and-v {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mv-text {
+  text-align: center;
+}
+.mv-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mv-decor {
+  width: 40%;
+}
+.official-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.officials {
+  max-height: 120px;
+  border: 1px;
+  border-style: solid;
+}
+.official-name {
+  text-align: center;
+}
+.section-name {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.adviser-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.adviser-pic {
+  margin-top: 5px;
+  height: 120px;
+  border: 1px;
+  border-style: solid;
+}
+.adviser-name {
+  text-align: center;
+  margin-left: 5px;
+}
+.names {
+  font-weight: bold;
+}
+.student-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.child-student-container {
+  display: flex;
+  justify-content: center;
+}
+.student-pic {
+  height: 120px;
+  width: 120px;
+  border: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  
+}
+.student-name {
+  font-size: 15px;
+  text-align: center;
+}
+
+.award-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+.Award-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.award-name-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.valedictorian-picture {
+  height: 150px;
+  border: 1px;
+  border-style: solid;
+}
+.valedictorian-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.valedictorian-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.special-award,
+.achievers {
+  font-size: 30px;
+  font-weight: 400 ;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.name-of-achiever {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.name-of-special {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+.award-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.teacher-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.child-teacher-container {
+  display: flex;
+  justify-content: center;
+}
+.teacher-pic {
+  height: 120px;
+  width: 120px;
+  border: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  object-fit: fill;
+}
+.teacher-name {
+  font-size: 15px;
+  text-align: center;
+}
+.memory-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.memory-image {
+  width: 150px;
+  height: 150px;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (width < 500px){
+  .pop-img {
+    width: 70%;
+    height: 300px;
+  }
+  .heads {
+    height: 100px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .buttons {
+    font-size: 10px;
+    padding: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .mv-text {
+    font-size: 10px;
+  }
+  .mv-title {
+    font-size: 15px;
+  }
+
+  .officials {
+    height: 100px;
+  }
+  .official-name {
+    font-size: 12px;
+  }
+  .section-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .adviser-container {
+    height: 100px;
+  }
+  .adviser-pic {
+    height: 100px;
+  }
+  .student-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .student-name {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .Award-header {
+    font-size: 15px;
+  }
+  .valedictorian-picture {
+    height: 120px;
+  }
+  .valedictorian-name {
+    font-size: 15px;
+  }
+  .special-award,
+  .achievers {
+    font-size: 25px;
+  }
+  .name-of-achiever {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  .name-of-special {
+    font-size: 10px;
+  }
+  .award-name {
+    font-size: 15px;
+  }
+  .teacher-pic {
+    height: 100px;
+    width: 100px;
+  }
+  .teacher-name {
+    font-size: 12px;
+  }
+  .memory-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 500px;
+
+  }
+  .memory-image {
+    width: 20%;
+    height: 100px;
+  }
+  .scroll-top-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .scroll-top-img {
+    height: 50px;
+    width: 50px;
+  }
+}
